@@ -93,12 +93,39 @@ class StringLab {
 	  }
 	  return returnValue;
   
+  }// end capVowel
+  
+  public Static String capFirstWord(String s); {
+	  String returnValue = "";
+	  
   }
 
 }// end string lab
    	
    	
- 
-    
 
+/*
+
+alphaStr = "abc...z"
+returnVal = ""
+
+use for to iterate through each character in string 
+set current char to variable (letter)
+uppercase first char if letter
+if ".":
+	uppercase next char
+	uppercaseNext = true
+	returnVal += letter
+if alphabetString.indexOf(letter)!= -1 and nextCharUpper=true (checks is first char is letter, and is first char in sentence)
+	returnVal += letter.Upper
+	uppercaseNext = False
+
+if alphabetString.indexOf(letter)== -1 and nextCharUpper=true (first char in sentence is not letter)
+	returnVal += letter
+	
+else
+	returnValue += letter
+	
+    
+*/
 
